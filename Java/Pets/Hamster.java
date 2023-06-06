@@ -7,7 +7,7 @@ public class Hamster extends Pet {
         super(id, name, birthdate, thoroughbred);
     }
 
-    public void Comands() {
+    public static void Comands() {
         System.out.println("Это животное не выполняет команд");
     }
 

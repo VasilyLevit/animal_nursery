@@ -1,13 +1,15 @@
 package Java;
 
-import Java.Beasts.*;
+import java.util.List;
+import java.util.ArrayList;
+import Java.Beasts.Beast;
 import Java.Pets.Pet;
 
 public class Farm<T> {
-    private List<A> animals;
+    private List<Animal> animals;
 
     public Farm() {
-        animals = new ArrayList();
+       animals = new ArrayList<>();
     }
 
     public boolean adopt(Animal animal) {

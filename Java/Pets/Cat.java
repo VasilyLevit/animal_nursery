@@ -1,6 +1,6 @@
 package Java.Pets;
 
-import Java.Animal;
+// import Java.Animal;
 
 public class Cat extends Pet {
     boolean houseLiver;
@@ -10,7 +10,7 @@ public class Cat extends Pet {
 
     }
 
-    public void Comands() {
+    public static void Comands() {
         System.out.println("Выполняемые команды животного");
     }
 }

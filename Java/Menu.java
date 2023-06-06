@@ -2,6 +2,13 @@ package Java;
 
 import java.util.Scanner;
 
+import Java.Beasts.Camel;
+import Java.Beasts.Donkey;
+import Java.Beasts.Horse;
+import Java.Pets.Cat;
+import Java.Pets.Dog;
+import Java.Pets.Hamster;
+
 public class Menu {
     static Scanner scanner = new Scanner(System.in);
 
@@ -36,9 +43,9 @@ public class Menu {
                 "1. Домашние\n" +
                 "2. Вьючные");
         int userSelectedClass = scanner.nextInt();
-
+        int userSelected;
         switch (userSelectedClass) {
-            int userSelected;
+            
             case 1:
                 System.out.println("Выберите вид животных: \n" +
                 "1. Кошки\n" +
@@ -75,7 +82,7 @@ public class Menu {
                         break;
                     }
             break;
-                }
+        }
 
     }
 

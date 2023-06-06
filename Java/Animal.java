@@ -1,6 +1,6 @@
 package Java;
 
-public class Animal {
+public abstract class Animal {
 
     private int id;
     private String name;

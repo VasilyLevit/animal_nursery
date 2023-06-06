@@ -8,7 +8,7 @@ public class Horse extends Beast {
         super(id, name, birthdate, loadCapacity);
     }
 
-    public void Comands() {
+    public static void Comands() {
         System.out.println("Выполняемые команды животного");
     }
 }
